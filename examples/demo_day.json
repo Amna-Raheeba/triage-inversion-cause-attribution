@@ -1,0 +1,5512 @@
+{
+  "days": [
+    {
+      "day_index": 0,
+      "seed": 7,
+      "events": [
+        {
+          "time": 2,
+          "type": "arrival",
+          "patient": "P001"
+        },
+        {
+          "time": 2,
+          "type": "arrival",
+          "patient": "P002"
+        },
+        {
+          "time": 3,
+          "type": "arrival",
+          "patient": "P003"
+        },
+        {
+          "time": 4,
+          "type": "triage",
+          "patient": "P001",
+          "recorded_acuity": 2,
+          "expected_service": 38
+        },
+        {
+          "time": 4,
+          "type": "triage",
+          "patient": "P002",
+          "recorded_acuity": 3,
+          "expected_service": 24
+        },
+        {
+          "time": 4,
+          "type": "service_start",
+          "patient": "P001",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 4,
+          "type": "service_start",
+          "patient": "P002",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 5,
+          "type": "triage",
+          "patient": "P003",
+          "recorded_acuity": 3,
+          "expected_service": 20
+        },
+        {
+          "time": 5,
+          "type": "service_start",
+          "patient": "P003",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 6,
+          "type": "arrival",
+          "patient": "P004"
+        },
+        {
+          "time": 8,
+          "type": "triage",
+          "patient": "P004",
+          "recorded_acuity": 2,
+          "expected_service": 29
+        },
+        {
+          "time": 10,
+          "type": "arrival",
+          "patient": "P005"
+        },
+        {
+          "time": 11,
+          "type": "arrival",
+          "patient": "P006"
+        },
+        {
+          "time": 12,
+          "type": "triage",
+          "patient": "P005",
+          "recorded_acuity": 4,
+          "expected_service": 13
+        },
+        {
+          "time": 13,
+          "type": "triage",
+          "patient": "P006",
+          "recorded_acuity": 4,
+          "expected_service": 18
+        },
+        {
+          "time": 17,
+          "type": "arrival",
+          "patient": "P007"
+        },
+        {
+          "time": 17,
+          "type": "arrival",
+          "patient": "P008"
+        },
+        {
+          "time": 18,
+          "type": "arrival",
+          "patient": "P009"
+        },
+        {
+          "time": 19,
+          "type": "triage",
+          "patient": "P007",
+          "recorded_acuity": 3,
+          "expected_service": 31
+        },
+        {
+          "time": 19,
+          "type": "triage",
+          "patient": "P008",
+          "recorded_acuity": 5,
+          "expected_service": 9
+        },
+        {
+          "time": 19,
+          "type": "service_start",
+          "patient": "P008",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 20,
+          "type": "triage",
+          "patient": "P009",
+          "recorded_acuity": 2,
+          "expected_service": 33
+        },
+        {
+          "time": 26,
+          "type": "service_end",
+          "patient": "P003",
+          "room": "G3"
+        },
+        {
+          "time": 26,
+          "type": "service_start",
+          "patient": "P004",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 27,
+          "type": "service_end",
+          "patient": "P002",
+          "room": "G2"
+        },
+        {
+          "time": 27,
+          "type": "service_start",
+          "patient": "P009",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 28,
+          "type": "service_end",
+          "patient": "P008",
+          "room": "F1"
+        },
+        {
+          "time": 29,
+          "type": "arrival",
+          "patient": "P010"
+        },
+        {
+          "time": 31,
+          "type": "triage",
+          "patient": "P010",
+          "recorded_acuity": 2,
+          "expected_service": 37
+        },
+        {
+          "time": 32,
+          "type": "vitals",
+          "patient": "P005",
+          "severity": 1.6
+        },
+        {
+          "time": 33,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.0
+        },
+        {
+          "time": 35,
+          "type": "arrival",
+          "patient": "P011"
+        },
+        {
+          "time": 36,
+          "type": "arrival",
+          "patient": "P012"
+        },
+        {
+          "time": 37,
+          "type": "triage",
+          "patient": "P011",
+          "recorded_acuity": 3,
+          "expected_service": 26
+        },
+        {
+          "time": 38,
+          "type": "triage",
+          "patient": "P012",
+          "recorded_acuity": 2,
+          "expected_service": 31
+        },
+        {
+          "time": 39,
+          "type": "vitals",
+          "patient": "P007",
+          "severity": 3.27
+        },
+        {
+          "time": 39,
+          "type": "service_end",
+          "patient": "P001",
+          "room": "G1"
+        },
+        {
+          "time": 39,
+          "type": "service_start",
+          "patient": "P010",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 43,
+          "type": "arrival",
+          "patient": "P013"
+        },
+        {
+          "time": 45,
+          "type": "triage",
+          "patient": "P013",
+          "recorded_acuity": 3,
+          "expected_service": 24
+        },
+        {
+          "time": 49,
+          "type": "arrival",
+          "patient": "P014"
+        },
+        {
+          "time": 51,
+          "type": "triage",
+          "patient": "P014",
+          "recorded_acuity": 3,
+          "expected_service": 23
+        },
+        {
+          "time": 52,
+          "type": "vitals",
+          "patient": "P005",
+          "severity": 2.31
+        },
+        {
+          "time": 53,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.96
+        },
+        {
+          "time": 53,
+          "type": "service_end",
+          "patient": "P004",
+          "room": "G3"
+        },
+        {
+          "time": 53,
+          "type": "service_start",
+          "patient": "P012",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 57,
+          "type": "vitals",
+          "patient": "P011",
+          "severity": 2.81
+        },
+        {
+          "time": 57,
+          "type": "service_end",
+          "patient": "P009",
+          "room": "G2"
+        },
+        {
+          "time": 57,
+          "type": "service_start",
+          "patient": "P007",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 59,
+          "type": "arrival",
+          "patient": "P015"
+        },
+        {
+          "time": 60,
+          "type": "batch_round"
+        },
+        {
+          "time": 60,
+          "type": "reassessment",
+          "patient": "P013",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 61,
+          "type": "triage",
+          "patient": "P015",
+          "recorded_acuity": 4,
+          "expected_service": 14
+        },
+        {
+          "time": 64,
+          "type": "arrival",
+          "patient": "P016"
+        },
+        {
+          "time": 65,
+          "type": "vitals",
+          "patient": "P013",
+          "severity": 4.06
+        },
+        {
+          "time": 66,
+          "type": "triage",
+          "patient": "P016",
+          "recorded_acuity": 3,
+          "expected_service": 30
+        },
+        {
+          "time": 71,
+          "type": "vitals",
+          "patient": "P014",
+          "severity": 2.97
+        },
+        {
+          "time": 72,
+          "type": "arrival",
+          "patient": "P017"
+        },
+        {
+          "time": 72,
+          "type": "vitals",
+          "patient": "P005",
+          "severity": 2.7
+        },
+        {
+          "time": 73,
+          "type": "arrival",
+          "patient": "P018"
+        },
+        {
+          "time": 73,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.91
+        },
+        {
+          "time": 74,
+          "type": "arrival",
+          "patient": "P019"
+        },
+        {
+          "time": 74,
+          "type": "triage",
+          "patient": "P017",
+          "recorded_acuity": 3,
+          "expected_service": 31
+        },
+        {
+          "time": 75,
+          "type": "triage",
+          "patient": "P018",
+          "recorded_acuity": 3,
+          "expected_service": 29
+        },
+        {
+          "time": 76,
+          "type": "triage",
+          "patient": "P019",
+          "recorded_acuity": 3,
+          "expected_service": 20
+        },
+        {
+          "time": 77,
+          "type": "vitals",
+          "patient": "P011",
+          "severity": 2.84
+        },
+        {
+          "time": 78,
+          "type": "service_end",
+          "patient": "P010",
+          "room": "G1"
+        },
+        {
+          "time": 78,
+          "type": "service_start",
+          "patient": "P013",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 81,
+          "type": "arrival",
+          "patient": "P020"
+        },
+        {
+          "time": 81,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.26
+        },
+        {
+          "time": 83,
+          "type": "triage",
+          "patient": "P020",
+          "recorded_acuity": 4,
+          "expected_service": 16
+        },
+        {
+          "time": 83,
+          "type": "service_end",
+          "patient": "P012",
+          "room": "G3"
+        },
+        {
+          "time": 83,
+          "type": "service_start",
+          "patient": "P011",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 86,
+          "type": "vitals",
+          "patient": "P016",
+          "severity": 3.22
+        },
+        {
+          "time": 88,
+          "type": "service_end",
+          "patient": "P007",
+          "room": "G2"
+        },
+        {
+          "time": 88,
+          "type": "service_start",
+          "patient": "P014",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 92,
+          "type": "vitals",
+          "patient": "P005",
+          "severity": 3.26
+        },
+        {
+          "time": 93,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.9
+        },
+        {
+          "time": 94,
+          "type": "arrival",
+          "patient": "P021"
+        },
+        {
+          "time": 94,
+          "type": "vitals",
+          "patient": "P017",
+          "severity": 2.77
+        },
+        {
+          "time": 95,
+          "type": "vitals",
+          "patient": "P018",
+          "severity": 2.86
+        },
+        {
+          "time": 96,
+          "type": "triage",
+          "patient": "P021",
+          "recorded_acuity": 3,
+          "expected_service": 28
+        },
+        {
+          "time": 96,
+          "type": "vitals",
+          "patient": "P019",
+          "severity": 3.04
+        },
+        {
+          "time": 100,
+          "type": "arrival",
+          "patient": "P022"
+        },
+        {
+          "time": 101,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.38
+        },
+        {
+          "time": 102,
+          "type": "triage",
+          "patient": "P022",
+          "recorded_acuity": 4,
+          "expected_service": 15
+        },
+        {
+          "time": 103,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 2.18
+        },
+        {
+          "time": 104,
+          "type": "service_end",
+          "patient": "P013",
+          "room": "G1"
+        },
+        {
+          "time": 104,
+          "type": "service_start",
+          "patient": "P016",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 109,
+          "type": "service_end",
+          "patient": "P014",
+          "room": "G2"
+        },
+        {
+          "time": 109,
+          "type": "service_start",
+          "patient": "P017",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 111,
+          "type": "arrival",
+          "patient": "P023"
+        },
+        {
+          "time": 111,
+          "type": "service_end",
+          "patient": "P011",
+          "room": "G3"
+        },
+        {
+          "time": 111,
+          "type": "service_start",
+          "patient": "P018",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 112,
+          "type": "vitals",
+          "patient": "P005",
+          "severity": 3.3
+        },
+        {
+          "time": 113,
+          "type": "triage",
+          "patient": "P023",
+          "recorded_acuity": 5,
+          "expected_service": 10
+        },
+        {
+          "time": 113,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.39
+        },
+        {
+          "time": 113,
+          "type": "service_start",
+          "patient": "P023",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 116,
+          "type": "vitals",
+          "patient": "P019",
+          "severity": 3.12
+        },
+        {
+          "time": 116,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 2.62
+        },
+        {
+          "time": 118,
+          "type": "arrival",
+          "patient": "P024"
+        },
+        {
+          "time": 120,
+          "type": "triage",
+          "patient": "P024",
+          "recorded_acuity": 2,
+          "expected_service": 39
+        },
+        {
+          "time": 120,
+          "type": "batch_round"
+        },
+        {
+          "time": 120,
+          "type": "reassessment",
+          "patient": "P005",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 120,
+          "type": "reassessment",
+          "patient": "P022",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 121,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.35
+        },
+        {
+          "time": 122,
+          "type": "vitals",
+          "patient": "P022",
+          "severity": 3.84
+        },
+        {
+          "time": 123,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 2.19
+        },
+        {
+          "time": 123,
+          "type": "service_end",
+          "patient": "P023",
+          "room": "F1"
+        },
+        {
+          "time": 125,
+          "type": "arrival",
+          "patient": "P025"
+        },
+        {
+          "time": 127,
+          "type": "arrival",
+          "patient": "P026"
+        },
+        {
+          "time": 127,
+          "type": "arrival",
+          "patient": "P027"
+        },
+        {
+          "time": 127,
+          "type": "triage",
+          "patient": "P025",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 127,
+          "type": "service_start",
+          "patient": "P025",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 128,
+          "type": "arrival",
+          "patient": "P028"
+        },
+        {
+          "time": 129,
+          "type": "arrival",
+          "patient": "P029"
+        },
+        {
+          "time": 129,
+          "type": "triage",
+          "patient": "P026",
+          "recorded_acuity": 3,
+          "expected_service": 28
+        },
+        {
+          "time": 129,
+          "type": "triage",
+          "patient": "P027",
+          "recorded_acuity": 3,
+          "expected_service": 22
+        },
+        {
+          "time": 130,
+          "type": "triage",
+          "patient": "P028",
+          "recorded_acuity": 2,
+          "expected_service": 40
+        },
+        {
+          "time": 131,
+          "type": "triage",
+          "patient": "P029",
+          "recorded_acuity": 3,
+          "expected_service": 24
+        },
+        {
+          "time": 132,
+          "type": "vitals",
+          "patient": "P005",
+          "severity": 3.83
+        },
+        {
+          "time": 133,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.16
+        },
+        {
+          "time": 133,
+          "type": "service_end",
+          "patient": "P016",
+          "room": "G1"
+        },
+        {
+          "time": 133,
+          "type": "service_start",
+          "patient": "P005",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 136,
+          "type": "vitals",
+          "patient": "P019",
+          "severity": 2.92
+        },
+        {
+          "time": 136,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 3.31
+        },
+        {
+          "time": 139,
+          "type": "service_end",
+          "patient": "P017",
+          "room": "G2"
+        },
+        {
+          "time": 139,
+          "type": "service_end",
+          "patient": "P025",
+          "room": "F1"
+        },
+        {
+          "time": 139,
+          "type": "service_start",
+          "patient": "P022",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 140,
+          "type": "vitals",
+          "patient": "P024",
+          "severity": 4.38
+        },
+        {
+          "time": 141,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.11
+        },
+        {
+          "time": 141,
+          "type": "service_end",
+          "patient": "P018",
+          "room": "G3"
+        },
+        {
+          "time": 141,
+          "type": "service_start",
+          "patient": "P024",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 142,
+          "type": "arrival",
+          "patient": "P030"
+        },
+        {
+          "time": 143,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 1.78
+        },
+        {
+          "time": 144,
+          "type": "triage",
+          "patient": "P030",
+          "recorded_acuity": 2,
+          "expected_service": 35
+        },
+        {
+          "time": 146,
+          "type": "service_end",
+          "patient": "P005",
+          "room": "G1"
+        },
+        {
+          "time": 146,
+          "type": "service_start",
+          "patient": "P028",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 147,
+          "type": "arrival",
+          "patient": "P031"
+        },
+        {
+          "time": 149,
+          "type": "triage",
+          "patient": "P031",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 149,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 2.81
+        },
+        {
+          "time": 149,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 2.78
+        },
+        {
+          "time": 149,
+          "type": "service_start",
+          "patient": "P031",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 151,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 2.97
+        },
+        {
+          "time": 153,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.13
+        },
+        {
+          "time": 153,
+          "type": "service_end",
+          "patient": "P022",
+          "room": "G2"
+        },
+        {
+          "time": 153,
+          "type": "service_start",
+          "patient": "P030",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 156,
+          "type": "vitals",
+          "patient": "P019",
+          "severity": 4.09
+        },
+        {
+          "time": 156,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 3.13
+        },
+        {
+          "time": 159,
+          "type": "arrival",
+          "patient": "P032"
+        },
+        {
+          "time": 161,
+          "type": "triage",
+          "patient": "P032",
+          "recorded_acuity": 3,
+          "expected_service": 25
+        },
+        {
+          "time": 161,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.32
+        },
+        {
+          "time": 162,
+          "type": "arrival",
+          "patient": "P033"
+        },
+        {
+          "time": 162,
+          "type": "service_end",
+          "patient": "P031",
+          "room": "F1"
+        },
+        {
+          "time": 163,
+          "type": "arrival",
+          "patient": "P034"
+        },
+        {
+          "time": 163,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 1.82
+        },
+        {
+          "time": 164,
+          "type": "triage",
+          "patient": "P033",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 164,
+          "type": "service_start",
+          "patient": "P033",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 165,
+          "type": "arrival",
+          "patient": "P035"
+        },
+        {
+          "time": 165,
+          "type": "triage",
+          "patient": "P034",
+          "recorded_acuity": 2,
+          "expected_service": 32
+        },
+        {
+          "time": 167,
+          "type": "arrival",
+          "patient": "P036"
+        },
+        {
+          "time": 167,
+          "type": "triage",
+          "patient": "P035",
+          "recorded_acuity": 3,
+          "expected_service": 27
+        },
+        {
+          "time": 169,
+          "type": "triage",
+          "patient": "P036",
+          "recorded_acuity": 1,
+          "expected_service": 44
+        },
+        {
+          "time": 169,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 2.93
+        },
+        {
+          "time": 169,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 2.68
+        },
+        {
+          "time": 170,
+          "type": "arrival",
+          "patient": "P037"
+        },
+        {
+          "time": 171,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 3.1
+        },
+        {
+          "time": 172,
+          "type": "triage",
+          "patient": "P037",
+          "recorded_acuity": 4,
+          "expected_service": 18
+        },
+        {
+          "time": 173,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.12
+        },
+        {
+          "time": 175,
+          "type": "service_end",
+          "patient": "P033",
+          "room": "F1"
+        },
+        {
+          "time": 176,
+          "type": "vitals",
+          "patient": "P019",
+          "severity": 4.82
+        },
+        {
+          "time": 176,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 3.25
+        },
+        {
+          "time": 177,
+          "type": "arrival",
+          "patient": "P038"
+        },
+        {
+          "time": 177,
+          "type": "service_end",
+          "patient": "P024",
+          "room": "G3"
+        },
+        {
+          "time": 177,
+          "type": "service_start",
+          "patient": "P036",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 179,
+          "type": "triage",
+          "patient": "P038",
+          "recorded_acuity": 3,
+          "expected_service": 27
+        },
+        {
+          "time": 180,
+          "type": "batch_round"
+        },
+        {
+          "time": 180,
+          "type": "reassessment",
+          "patient": "P019",
+          "recorded_acuity": 1,
+          "source": "batch"
+        },
+        {
+          "time": 181,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.37
+        },
+        {
+          "time": 181,
+          "type": "vitals",
+          "patient": "P032",
+          "severity": 2.8
+        },
+        {
+          "time": 183,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 2.39
+        },
+        {
+          "time": 183,
+          "type": "service_end",
+          "patient": "P028",
+          "room": "G1"
+        },
+        {
+          "time": 183,
+          "type": "service_start",
+          "patient": "P019",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 184,
+          "type": "arrival",
+          "patient": "P039"
+        },
+        {
+          "time": 185,
+          "type": "vitals",
+          "patient": "P034",
+          "severity": 3.73
+        },
+        {
+          "time": 186,
+          "type": "triage",
+          "patient": "P039",
+          "recorded_acuity": 2,
+          "expected_service": 42
+        },
+        {
+          "time": 187,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 3.17
+        },
+        {
+          "time": 187,
+          "type": "service_end",
+          "patient": "P030",
+          "room": "G2"
+        },
+        {
+          "time": 187,
+          "type": "service_start",
+          "patient": "P034",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 189,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 3.4
+        },
+        {
+          "time": 189,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 3.34
+        },
+        {
+          "time": 191,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 2.66
+        },
+        {
+          "time": 192,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.19
+        },
+        {
+          "time": 193,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.3
+        },
+        {
+          "time": 194,
+          "type": "arrival",
+          "patient": "P040"
+        },
+        {
+          "time": 196,
+          "type": "triage",
+          "patient": "P040",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 196,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 2.68
+        },
+        {
+          "time": 196,
+          "type": "service_start",
+          "patient": "P040",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 197,
+          "type": "arrival",
+          "patient": "P041"
+        },
+        {
+          "time": 199,
+          "type": "triage",
+          "patient": "P041",
+          "recorded_acuity": 3,
+          "expected_service": 21
+        },
+        {
+          "time": 199,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 2.87
+        },
+        {
+          "time": 201,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.25
+        },
+        {
+          "time": 201,
+          "type": "vitals",
+          "patient": "P032",
+          "severity": 3.31
+        },
+        {
+          "time": 202,
+          "type": "service_end",
+          "patient": "P019",
+          "room": "G1"
+        },
+        {
+          "time": 202,
+          "type": "service_start",
+          "patient": "P039",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 203,
+          "type": "arrival",
+          "patient": "P042"
+        },
+        {
+          "time": 203,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 1.71
+        },
+        {
+          "time": 205,
+          "type": "arrival",
+          "patient": "P043"
+        },
+        {
+          "time": 205,
+          "type": "arrival",
+          "patient": "P044"
+        },
+        {
+          "time": 205,
+          "type": "triage",
+          "patient": "P042",
+          "recorded_acuity": 2,
+          "expected_service": 29
+        },
+        {
+          "time": 206,
+          "type": "arrival",
+          "patient": "P045"
+        },
+        {
+          "time": 207,
+          "type": "triage",
+          "patient": "P043",
+          "recorded_acuity": 2,
+          "expected_service": 33
+        },
+        {
+          "time": 207,
+          "type": "triage",
+          "patient": "P044",
+          "recorded_acuity": 1,
+          "expected_service": 39
+        },
+        {
+          "time": 207,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 3.19
+        },
+        {
+          "time": 208,
+          "type": "triage",
+          "patient": "P045",
+          "recorded_acuity": 3,
+          "expected_service": 20
+        },
+        {
+          "time": 208,
+          "type": "service_end",
+          "patient": "P040",
+          "room": "F1"
+        },
+        {
+          "time": 209,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 2.96
+        },
+        {
+          "time": 209,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 2.75
+        },
+        {
+          "time": 211,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 3.02
+        },
+        {
+          "time": 212,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 1.85
+        },
+        {
+          "time": 213,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.75
+        },
+        {
+          "time": 216,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 2.88
+        },
+        {
+          "time": 219,
+          "type": "arrival",
+          "patient": "P046"
+        },
+        {
+          "time": 219,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 2.83
+        },
+        {
+          "time": 219,
+          "type": "vitals",
+          "patient": "P041",
+          "severity": 2.79
+        },
+        {
+          "time": 219,
+          "type": "service_end",
+          "patient": "P034",
+          "room": "G2"
+        },
+        {
+          "time": 219,
+          "type": "service_start",
+          "patient": "P044",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 221,
+          "type": "arrival",
+          "patient": "P047"
+        },
+        {
+          "time": 221,
+          "type": "triage",
+          "patient": "P046",
+          "recorded_acuity": 4,
+          "expected_service": 13
+        },
+        {
+          "time": 221,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 1.7
+        },
+        {
+          "time": 221,
+          "type": "vitals",
+          "patient": "P032",
+          "severity": 3.01
+        },
+        {
+          "time": 222,
+          "type": "arrival",
+          "patient": "P048"
+        },
+        {
+          "time": 223,
+          "type": "triage",
+          "patient": "P047",
+          "recorded_acuity": 3,
+          "expected_service": 24
+        },
+        {
+          "time": 223,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 2.13
+        },
+        {
+          "time": 223,
+          "type": "service_end",
+          "patient": "P036",
+          "room": "G3"
+        },
+        {
+          "time": 223,
+          "type": "service_start",
+          "patient": "P042",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 224,
+          "type": "triage",
+          "patient": "P048",
+          "recorded_acuity": 4,
+          "expected_service": 19
+        },
+        {
+          "time": 226,
+          "type": "arrival",
+          "patient": "P049"
+        },
+        {
+          "time": 226,
+          "type": "arrival",
+          "patient": "P050"
+        },
+        {
+          "time": 227,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 3.24
+        },
+        {
+          "time": 227,
+          "type": "vitals",
+          "patient": "P043",
+          "severity": 4.81
+        },
+        {
+          "time": 228,
+          "type": "triage",
+          "patient": "P049",
+          "recorded_acuity": 3,
+          "expected_service": 21
+        },
+        {
+          "time": 228,
+          "type": "triage",
+          "patient": "P050",
+          "recorded_acuity": 3,
+          "expected_service": 23
+        },
+        {
+          "time": 228,
+          "type": "vitals",
+          "patient": "P045",
+          "severity": 2.84
+        },
+        {
+          "time": 229,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 2.82
+        },
+        {
+          "time": 229,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 2.76
+        },
+        {
+          "time": 231,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 3.34
+        },
+        {
+          "time": 232,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.32
+        },
+        {
+          "time": 233,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.23
+        },
+        {
+          "time": 236,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 3.29
+        },
+        {
+          "time": 237,
+          "type": "arrival",
+          "patient": "P051"
+        },
+        {
+          "time": 239,
+          "type": "triage",
+          "patient": "P051",
+          "recorded_acuity": 2,
+          "expected_service": 28
+        },
+        {
+          "time": 239,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 3.36
+        },
+        {
+          "time": 239,
+          "type": "vitals",
+          "patient": "P041",
+          "severity": 3.18
+        },
+        {
+          "time": 240,
+          "type": "batch_round"
+        },
+        {
+          "time": 240,
+          "type": "reassessment",
+          "patient": "P043",
+          "recorded_acuity": 1,
+          "source": "batch"
+        },
+        {
+          "time": 240,
+          "type": "reassessment",
+          "patient": "P049",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 241,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 1.91
+        },
+        {
+          "time": 241,
+          "type": "vitals",
+          "patient": "P032",
+          "severity": 2.98
+        },
+        {
+          "time": 241,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 1.73
+        },
+        {
+          "time": 243,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 2.11
+        },
+        {
+          "time": 243,
+          "type": "vitals",
+          "patient": "P047",
+          "severity": 3.11
+        },
+        {
+          "time": 244,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 1.89
+        },
+        {
+          "time": 247,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 2.77
+        },
+        {
+          "time": 247,
+          "type": "vitals",
+          "patient": "P043",
+          "severity": 4.86
+        },
+        {
+          "time": 248,
+          "type": "vitals",
+          "patient": "P045",
+          "severity": 3.09
+        },
+        {
+          "time": 248,
+          "type": "vitals",
+          "patient": "P049",
+          "severity": 4.18
+        },
+        {
+          "time": 248,
+          "type": "vitals",
+          "patient": "P050",
+          "severity": 2.86
+        },
+        {
+          "time": 248,
+          "type": "service_end",
+          "patient": "P039",
+          "room": "G1"
+        },
+        {
+          "time": 248,
+          "type": "service_start",
+          "patient": "P043",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 249,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 3.38
+        },
+        {
+          "time": 249,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 2.96
+        },
+        {
+          "time": 251,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 3.19
+        },
+        {
+          "time": 251,
+          "type": "service_end",
+          "patient": "P042",
+          "room": "G3"
+        },
+        {
+          "time": 251,
+          "type": "service_start",
+          "patient": "P049",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 252,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.4
+        },
+        {
+          "time": 253,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.77
+        },
+        {
+          "time": 254,
+          "type": "service_end",
+          "patient": "P044",
+          "room": "G2"
+        },
+        {
+          "time": 254,
+          "type": "service_start",
+          "patient": "P051",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 256,
+          "type": "arrival",
+          "patient": "P052"
+        },
+        {
+          "time": 256,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 3.31
+        },
+        {
+          "time": 258,
+          "type": "triage",
+          "patient": "P052",
+          "recorded_acuity": 3,
+          "expected_service": 22
+        },
+        {
+          "time": 259,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 3.1
+        },
+        {
+          "time": 259,
+          "type": "vitals",
+          "patient": "P041",
+          "severity": 3.19
+        },
+        {
+          "time": 261,
+          "type": "arrival",
+          "patient": "P053"
+        },
+        {
+          "time": 261,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 1.7
+        },
+        {
+          "time": 261,
+          "type": "vitals",
+          "patient": "P032",
+          "severity": 2.72
+        },
+        {
+          "time": 261,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 1.8
+        },
+        {
+          "time": 263,
+          "type": "triage",
+          "patient": "P053",
+          "recorded_acuity": 1,
+          "expected_service": 47
+        },
+        {
+          "time": 263,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 2.23
+        },
+        {
+          "time": 263,
+          "type": "vitals",
+          "patient": "P047",
+          "severity": 3.09
+        },
+        {
+          "time": 264,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 1.86
+        },
+        {
+          "time": 267,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 2.8
+        },
+        {
+          "time": 268,
+          "type": "vitals",
+          "patient": "P045",
+          "severity": 4.24
+        },
+        {
+          "time": 268,
+          "type": "vitals",
+          "patient": "P050",
+          "severity": 3.13
+        },
+        {
+          "time": 269,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 2.7
+        },
+        {
+          "time": 269,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 2.71
+        },
+        {
+          "time": 270,
+          "type": "service_end",
+          "patient": "P049",
+          "room": "G3"
+        },
+        {
+          "time": 270,
+          "type": "service_start",
+          "patient": "P053",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 271,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 3.04
+        },
+        {
+          "time": 272,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 1.77
+        },
+        {
+          "time": 273,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.06
+        },
+        {
+          "time": 273,
+          "type": "reassessment",
+          "patient": "P045",
+          "recorded_acuity": 2,
+          "source": "prompt"
+        },
+        {
+          "time": 276,
+          "type": "vitals",
+          "patient": "P021",
+          "severity": 5.33
+        },
+        {
+          "time": 278,
+          "type": "vitals",
+          "patient": "P052",
+          "severity": 3.07
+        },
+        {
+          "time": 278,
+          "type": "service_end",
+          "patient": "P043",
+          "room": "G1"
+        },
+        {
+          "time": 278,
+          "type": "service_start",
+          "patient": "P045",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 279,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 2.63
+        },
+        {
+          "time": 279,
+          "type": "vitals",
+          "patient": "P041",
+          "severity": 3.02
+        },
+        {
+          "time": 280,
+          "type": "service_end",
+          "patient": "P051",
+          "room": "G2"
+        },
+        {
+          "time": 280,
+          "type": "service_start",
+          "patient": "P021",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 281,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.24
+        },
+        {
+          "time": 281,
+          "type": "vitals",
+          "patient": "P032",
+          "severity": 3.2
+        },
+        {
+          "time": 281,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.28
+        },
+        {
+          "time": 283,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 1.92
+        },
+        {
+          "time": 283,
+          "type": "vitals",
+          "patient": "P047",
+          "severity": 2.97
+        },
+        {
+          "time": 284,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 1.88
+        },
+        {
+          "time": 286,
+          "type": "arrival",
+          "patient": "P054"
+        },
+        {
+          "time": 287,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 3.09
+        },
+        {
+          "time": 288,
+          "type": "arrival",
+          "patient": "P055"
+        },
+        {
+          "time": 288,
+          "type": "triage",
+          "patient": "P054",
+          "recorded_acuity": 5,
+          "expected_service": 11
+        },
+        {
+          "time": 288,
+          "type": "vitals",
+          "patient": "P050",
+          "severity": 3.04
+        },
+        {
+          "time": 288,
+          "type": "service_start",
+          "patient": "P054",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 289,
+          "type": "vitals",
+          "patient": "P026",
+          "severity": 2.85
+        },
+        {
+          "time": 289,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 3.02
+        },
+        {
+          "time": 290,
+          "type": "triage",
+          "patient": "P055",
+          "recorded_acuity": 3,
+          "expected_service": 22
+        },
+        {
+          "time": 291,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 2.92
+        },
+        {
+          "time": 292,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.17
+        },
+        {
+          "time": 293,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.93
+        },
+        {
+          "time": 297,
+          "type": "arrival",
+          "patient": "P056"
+        },
+        {
+          "time": 297,
+          "type": "service_end",
+          "patient": "P045",
+          "room": "G1"
+        },
+        {
+          "time": 297,
+          "type": "service_start",
+          "patient": "P026",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 298,
+          "type": "vitals",
+          "patient": "P052",
+          "severity": 3.8
+        },
+        {
+          "time": 299,
+          "type": "arrival",
+          "patient": "P057"
+        },
+        {
+          "time": 299,
+          "type": "triage",
+          "patient": "P056",
+          "recorded_acuity": 3,
+          "expected_service": 29
+        },
+        {
+          "time": 299,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 3.22
+        },
+        {
+          "time": 299,
+          "type": "vitals",
+          "patient": "P041",
+          "severity": 2.76
+        },
+        {
+          "time": 299,
+          "type": "service_end",
+          "patient": "P054",
+          "room": "F1"
+        },
+        {
+          "time": 300,
+          "type": "batch_round"
+        },
+        {
+          "time": 300,
+          "type": "reassessment",
+          "patient": "P032",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 300,
+          "type": "reassessment",
+          "patient": "P052",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 301,
+          "type": "triage",
+          "patient": "P057",
+          "recorded_acuity": 3,
+          "expected_service": 29
+        },
+        {
+          "time": 301,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.38
+        },
+        {
+          "time": 301,
+          "type": "vitals",
+          "patient": "P032",
+          "severity": 4.28
+        },
+        {
+          "time": 301,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.02
+        },
+        {
+          "time": 303,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 1.68
+        },
+        {
+          "time": 303,
+          "type": "vitals",
+          "patient": "P047",
+          "severity": 3.3
+        },
+        {
+          "time": 304,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 1.69
+        },
+        {
+          "time": 307,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 2.77
+        },
+        {
+          "time": 308,
+          "type": "vitals",
+          "patient": "P050",
+          "severity": 2.82
+        },
+        {
+          "time": 309,
+          "type": "vitals",
+          "patient": "P027",
+          "severity": 3.2
+        },
+        {
+          "time": 309,
+          "type": "service_end",
+          "patient": "P021",
+          "room": "G2"
+        },
+        {
+          "time": 309,
+          "type": "service_start",
+          "patient": "P032",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 310,
+          "type": "vitals",
+          "patient": "P055",
+          "severity": 2.73
+        },
+        {
+          "time": 311,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 2.79
+        },
+        {
+          "time": 312,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.02
+        },
+        {
+          "time": 313,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.87
+        },
+        {
+          "time": 313,
+          "type": "service_end",
+          "patient": "P053",
+          "room": "G3"
+        },
+        {
+          "time": 313,
+          "type": "service_start",
+          "patient": "P052",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 319,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 2.75
+        },
+        {
+          "time": 319,
+          "type": "vitals",
+          "patient": "P041",
+          "severity": 2.81
+        },
+        {
+          "time": 319,
+          "type": "vitals",
+          "patient": "P056",
+          "severity": 2.96
+        },
+        {
+          "time": 321,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.1
+        },
+        {
+          "time": 321,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.25
+        },
+        {
+          "time": 321,
+          "type": "vitals",
+          "patient": "P057",
+          "severity": 4.32
+        },
+        {
+          "time": 323,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 1.9
+        },
+        {
+          "time": 323,
+          "type": "vitals",
+          "patient": "P047",
+          "severity": 3.28
+        },
+        {
+          "time": 323,
+          "type": "service_end",
+          "patient": "P026",
+          "room": "G1"
+        },
+        {
+          "time": 323,
+          "type": "service_start",
+          "patient": "P027",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 324,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.22
+        },
+        {
+          "time": 326,
+          "type": "arrival",
+          "patient": "P058"
+        },
+        {
+          "time": 327,
+          "type": "vitals",
+          "patient": "P035",
+          "severity": 3.0
+        },
+        {
+          "time": 328,
+          "type": "triage",
+          "patient": "P058",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 328,
+          "type": "vitals",
+          "patient": "P050",
+          "severity": 3.16
+        },
+        {
+          "time": 328,
+          "type": "service_start",
+          "patient": "P058",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 330,
+          "type": "vitals",
+          "patient": "P055",
+          "severity": 3.09
+        },
+        {
+          "time": 331,
+          "type": "vitals",
+          "patient": "P029",
+          "severity": 2.83
+        },
+        {
+          "time": 332,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.08
+        },
+        {
+          "time": 332,
+          "type": "service_end",
+          "patient": "P032",
+          "room": "G2"
+        },
+        {
+          "time": 332,
+          "type": "service_start",
+          "patient": "P029",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 333,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.76
+        },
+        {
+          "time": 337,
+          "type": "arrival",
+          "patient": "P059"
+        },
+        {
+          "time": 337,
+          "type": "service_end",
+          "patient": "P052",
+          "room": "G3"
+        },
+        {
+          "time": 337,
+          "type": "service_start",
+          "patient": "P035",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 339,
+          "type": "triage",
+          "patient": "P059",
+          "recorded_acuity": 4,
+          "expected_service": 14
+        },
+        {
+          "time": 339,
+          "type": "vitals",
+          "patient": "P038",
+          "severity": 3.15
+        },
+        {
+          "time": 339,
+          "type": "vitals",
+          "patient": "P041",
+          "severity": 2.98
+        },
+        {
+          "time": 339,
+          "type": "vitals",
+          "patient": "P056",
+          "severity": 2.85
+        },
+        {
+          "time": 339,
+          "type": "service_end",
+          "patient": "P058",
+          "room": "F1"
+        },
+        {
+          "time": 341,
+          "type": "arrival",
+          "patient": "P060"
+        },
+        {
+          "time": 341,
+          "type": "arrival",
+          "patient": "P061"
+        },
+        {
+          "time": 341,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.28
+        },
+        {
+          "time": 341,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.13
+        },
+        {
+          "time": 341,
+          "type": "vitals",
+          "patient": "P057",
+          "severity": 3.87
+        },
+        {
+          "time": 343,
+          "type": "triage",
+          "patient": "P060",
+          "recorded_acuity": 3,
+          "expected_service": 20
+        },
+        {
+          "time": 343,
+          "type": "triage",
+          "patient": "P061",
+          "recorded_acuity": 3,
+          "expected_service": 23
+        },
+        {
+          "time": 343,
+          "type": "vitals",
+          "patient": "P020",
+          "severity": 1.91
+        },
+        {
+          "time": 343,
+          "type": "vitals",
+          "patient": "P047",
+          "severity": 2.76
+        },
+        {
+          "time": 344,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.15
+        },
+        {
+          "time": 346,
+          "type": "service_end",
+          "patient": "P027",
+          "room": "G1"
+        },
+        {
+          "time": 346,
+          "type": "service_start",
+          "patient": "P038",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 348,
+          "type": "vitals",
+          "patient": "P050",
+          "severity": 2.9
+        },
+        {
+          "time": 349,
+          "type": "arrival",
+          "patient": "P062"
+        },
+        {
+          "time": 350,
+          "type": "vitals",
+          "patient": "P055",
+          "severity": 3.12
+        },
+        {
+          "time": 351,
+          "type": "triage",
+          "patient": "P062",
+          "recorded_acuity": 5,
+          "expected_service": 10
+        },
+        {
+          "time": 351,
+          "type": "service_start",
+          "patient": "P062",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 352,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.32
+        },
+        {
+          "time": 353,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.72
+        },
+        {
+          "time": 356,
+          "type": "service_end",
+          "patient": "P029",
+          "room": "G2"
+        },
+        {
+          "time": 356,
+          "type": "service_start",
+          "patient": "P041",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 359,
+          "type": "vitals",
+          "patient": "P056",
+          "severity": 3.1
+        },
+        {
+          "time": 359,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 1.73
+        },
+        {
+          "time": 360,
+          "type": "batch_round"
+        },
+        {
+          "time": 360,
+          "type": "reassessment",
+          "patient": "P020",
+          "recorded_acuity": 1,
+          "source": "batch"
+        },
+        {
+          "time": 360,
+          "type": "reassessment",
+          "patient": "P057",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 361,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 1.86
+        },
+        {
+          "time": 361,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.35
+        },
+        {
+          "time": 361,
+          "type": "vitals",
+          "patient": "P057",
+          "severity": 3.69
+        },
+        {
+          "time": 361,
+          "type": "service_end",
+          "patient": "P062",
+          "room": "F1"
+        },
+        {
+          "time": 362,
+          "type": "service_end",
+          "patient": "P035",
+          "room": "G3"
+        },
+        {
+          "time": 362,
+          "type": "service_start",
+          "patient": "P020",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 363,
+          "type": "vitals",
+          "patient": "P047",
+          "severity": 3.04
+        },
+        {
+          "time": 363,
+          "type": "vitals",
+          "patient": "P060",
+          "severity": 3.38
+        },
+        {
+          "time": 363,
+          "type": "vitals",
+          "patient": "P061",
+          "severity": 3.22
+        },
+        {
+          "time": 364,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 1.63
+        },
+        {
+          "time": 366,
+          "type": "arrival",
+          "patient": "P063"
+        },
+        {
+          "time": 368,
+          "type": "triage",
+          "patient": "P063",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 368,
+          "type": "vitals",
+          "patient": "P050",
+          "severity": 2.87
+        },
+        {
+          "time": 368,
+          "type": "service_start",
+          "patient": "P063",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 369,
+          "type": "arrival",
+          "patient": "P064"
+        },
+        {
+          "time": 370,
+          "type": "vitals",
+          "patient": "P055",
+          "severity": 2.93
+        },
+        {
+          "time": 371,
+          "type": "arrival",
+          "patient": "P065"
+        },
+        {
+          "time": 371,
+          "type": "triage",
+          "patient": "P064",
+          "recorded_acuity": 3,
+          "expected_service": 23
+        },
+        {
+          "time": 372,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 1.82
+        },
+        {
+          "time": 372,
+          "type": "service_end",
+          "patient": "P038",
+          "room": "G1"
+        },
+        {
+          "time": 372,
+          "type": "service_start",
+          "patient": "P057",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 373,
+          "type": "triage",
+          "patient": "P065",
+          "recorded_acuity": 3,
+          "expected_service": 27
+        },
+        {
+          "time": 373,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.29
+        },
+        {
+          "time": 379,
+          "type": "vitals",
+          "patient": "P056",
+          "severity": 2.75
+        },
+        {
+          "time": 379,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 1.75
+        },
+        {
+          "time": 379,
+          "type": "service_end",
+          "patient": "P041",
+          "room": "G2"
+        },
+        {
+          "time": 379,
+          "type": "service_end",
+          "patient": "P020",
+          "room": "G3"
+        },
+        {
+          "time": 379,
+          "type": "service_start",
+          "patient": "P047",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 379,
+          "type": "service_start",
+          "patient": "P050",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 380,
+          "type": "service_end",
+          "patient": "P063",
+          "room": "F1"
+        },
+        {
+          "time": 381,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.03
+        },
+        {
+          "time": 381,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 1.74
+        },
+        {
+          "time": 383,
+          "type": "vitals",
+          "patient": "P060",
+          "severity": 2.94
+        },
+        {
+          "time": 383,
+          "type": "vitals",
+          "patient": "P061",
+          "severity": 3.03
+        },
+        {
+          "time": 384,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 1.85
+        },
+        {
+          "time": 385,
+          "type": "arrival",
+          "patient": "P066"
+        },
+        {
+          "time": 387,
+          "type": "triage",
+          "patient": "P066",
+          "recorded_acuity": 4,
+          "expected_service": 15
+        },
+        {
+          "time": 390,
+          "type": "vitals",
+          "patient": "P055",
+          "severity": 2.67
+        },
+        {
+          "time": 391,
+          "type": "vitals",
+          "patient": "P064",
+          "severity": 3.31
+        },
+        {
+          "time": 392,
+          "type": "arrival",
+          "patient": "P067"
+        },
+        {
+          "time": 392,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 1.78
+        },
+        {
+          "time": 393,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.33
+        },
+        {
+          "time": 393,
+          "type": "vitals",
+          "patient": "P065",
+          "severity": 3.13
+        },
+        {
+          "time": 394,
+          "type": "triage",
+          "patient": "P067",
+          "recorded_acuity": 4,
+          "expected_service": 13
+        },
+        {
+          "time": 399,
+          "type": "arrival",
+          "patient": "P068"
+        },
+        {
+          "time": 399,
+          "type": "vitals",
+          "patient": "P056",
+          "severity": 3.37
+        },
+        {
+          "time": 399,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 1.83
+        },
+        {
+          "time": 401,
+          "type": "triage",
+          "patient": "P068",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 401,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.17
+        },
+        {
+          "time": 401,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 1.77
+        },
+        {
+          "time": 401,
+          "type": "service_start",
+          "patient": "P068",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 402,
+          "type": "service_end",
+          "patient": "P057",
+          "room": "G1"
+        },
+        {
+          "time": 402,
+          "type": "service_end",
+          "patient": "P047",
+          "room": "G2"
+        },
+        {
+          "time": 402,
+          "type": "service_start",
+          "patient": "P055",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 402,
+          "type": "service_start",
+          "patient": "P056",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 403,
+          "type": "vitals",
+          "patient": "P060",
+          "severity": 3.02
+        },
+        {
+          "time": 403,
+          "type": "vitals",
+          "patient": "P061",
+          "severity": 3.04
+        },
+        {
+          "time": 403,
+          "type": "service_end",
+          "patient": "P050",
+          "room": "G3"
+        },
+        {
+          "time": 403,
+          "type": "service_start",
+          "patient": "P060",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 404,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 1.73
+        },
+        {
+          "time": 407,
+          "type": "arrival",
+          "patient": "P069"
+        },
+        {
+          "time": 407,
+          "type": "vitals",
+          "patient": "P066",
+          "severity": 2.27
+        },
+        {
+          "time": 409,
+          "type": "triage",
+          "patient": "P069",
+          "recorded_acuity": 3,
+          "expected_service": 22
+        },
+        {
+          "time": 411,
+          "type": "vitals",
+          "patient": "P064",
+          "severity": 3.38
+        },
+        {
+          "time": 412,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.35
+        },
+        {
+          "time": 413,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.78
+        },
+        {
+          "time": 413,
+          "type": "vitals",
+          "patient": "P065",
+          "severity": 2.67
+        },
+        {
+          "time": 413,
+          "type": "service_end",
+          "patient": "P068",
+          "room": "F1"
+        },
+        {
+          "time": 414,
+          "type": "vitals",
+          "patient": "P067",
+          "severity": 1.64
+        },
+        {
+          "time": 417,
+          "type": "arrival",
+          "patient": "P070"
+        },
+        {
+          "time": 419,
+          "type": "triage",
+          "patient": "P070",
+          "recorded_acuity": 3,
+          "expected_service": 29
+        },
+        {
+          "time": 419,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 1.83
+        },
+        {
+          "time": 420,
+          "type": "batch_round"
+        },
+        {
+          "time": 421,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.12
+        },
+        {
+          "time": 421,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 1.95
+        },
+        {
+          "time": 422,
+          "type": "service_end",
+          "patient": "P060",
+          "room": "G3"
+        },
+        {
+          "time": 422,
+          "type": "service_start",
+          "patient": "P061",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 424,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.27
+        },
+        {
+          "time": 424,
+          "type": "service_end",
+          "patient": "P055",
+          "room": "G1"
+        },
+        {
+          "time": 424,
+          "type": "service_start",
+          "patient": "P064",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 427,
+          "type": "vitals",
+          "patient": "P066",
+          "severity": 1.64
+        },
+        {
+          "time": 429,
+          "type": "vitals",
+          "patient": "P069",
+          "severity": 2.91
+        },
+        {
+          "time": 429,
+          "type": "service_end",
+          "patient": "P056",
+          "room": "G2"
+        },
+        {
+          "time": 429,
+          "type": "service_start",
+          "patient": "P065",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 432,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 1.9
+        },
+        {
+          "time": 433,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 1.81
+        },
+        {
+          "time": 434,
+          "type": "vitals",
+          "patient": "P067",
+          "severity": 2.27
+        },
+        {
+          "time": 439,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 2.06
+        },
+        {
+          "time": 439,
+          "type": "vitals",
+          "patient": "P070",
+          "severity": 4.62
+        },
+        {
+          "time": 440,
+          "type": "arrival",
+          "patient": "P071"
+        },
+        {
+          "time": 441,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.95
+        },
+        {
+          "time": 441,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.36
+        },
+        {
+          "time": 442,
+          "type": "triage",
+          "patient": "P071",
+          "recorded_acuity": 3,
+          "expected_service": 25
+        },
+        {
+          "time": 444,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.13
+        },
+        {
+          "time": 446,
+          "type": "service_end",
+          "patient": "P064",
+          "room": "G1"
+        },
+        {
+          "time": 446,
+          "type": "service_start",
+          "patient": "P069",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 447,
+          "type": "vitals",
+          "patient": "P066",
+          "severity": 1.71
+        },
+        {
+          "time": 447,
+          "type": "service_end",
+          "patient": "P061",
+          "room": "G3"
+        },
+        {
+          "time": 447,
+          "type": "service_start",
+          "patient": "P070",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 452,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 1.95
+        },
+        {
+          "time": 453,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.35
+        },
+        {
+          "time": 454,
+          "type": "vitals",
+          "patient": "P067",
+          "severity": 1.74
+        },
+        {
+          "time": 457,
+          "type": "service_end",
+          "patient": "P065",
+          "room": "G2"
+        },
+        {
+          "time": 457,
+          "type": "service_start",
+          "patient": "P071",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 458,
+          "type": "arrival",
+          "patient": "P072"
+        },
+        {
+          "time": 459,
+          "type": "arrival",
+          "patient": "P073"
+        },
+        {
+          "time": 459,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 1.68
+        },
+        {
+          "time": 460,
+          "type": "triage",
+          "patient": "P072",
+          "recorded_acuity": 4,
+          "expected_service": 13
+        },
+        {
+          "time": 461,
+          "type": "triage",
+          "patient": "P073",
+          "recorded_acuity": 2,
+          "expected_service": 42
+        },
+        {
+          "time": 461,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.84
+        },
+        {
+          "time": 461,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 1.94
+        },
+        {
+          "time": 464,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.17
+        },
+        {
+          "time": 467,
+          "type": "vitals",
+          "patient": "P066",
+          "severity": 2.27
+        },
+        {
+          "time": 470,
+          "type": "arrival",
+          "patient": "P074"
+        },
+        {
+          "time": 470,
+          "type": "service_end",
+          "patient": "P069",
+          "room": "G1"
+        },
+        {
+          "time": 470,
+          "type": "service_start",
+          "patient": "P073",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 472,
+          "type": "triage",
+          "patient": "P074",
+          "recorded_acuity": 2,
+          "expected_service": 41
+        },
+        {
+          "time": 472,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.19
+        },
+        {
+          "time": 473,
+          "type": "vitals",
+          "patient": "P006",
+          "severity": 2.61
+        },
+        {
+          "time": 474,
+          "type": "vitals",
+          "patient": "P067",
+          "severity": 2.07
+        },
+        {
+          "time": 476,
+          "type": "service_end",
+          "patient": "P070",
+          "room": "G3"
+        },
+        {
+          "time": 476,
+          "type": "service_start",
+          "patient": "P074",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 479,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 2.09
+        },
+        {
+          "time": 480,
+          "type": "vitals",
+          "patient": "P072",
+          "severity": 2.0
+        },
+        {
+          "time": 480,
+          "type": "batch_round"
+        },
+        {
+          "time": 480,
+          "type": "reassessment",
+          "patient": "P006",
+          "recorded_acuity": 3,
+          "source": "batch"
+        },
+        {
+          "time": 480,
+          "type": "reassessment",
+          "patient": "P015",
+          "recorded_acuity": 3,
+          "source": "batch"
+        },
+        {
+          "time": 481,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 3.11
+        },
+        {
+          "time": 481,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.39
+        },
+        {
+          "time": 483,
+          "type": "service_end",
+          "patient": "P071",
+          "room": "G2"
+        },
+        {
+          "time": 483,
+          "type": "service_start",
+          "patient": "P006",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 484,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.01
+        },
+        {
+          "time": 487,
+          "type": "vitals",
+          "patient": "P066",
+          "severity": 1.86
+        },
+        {
+          "time": 492,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.34
+        },
+        {
+          "time": 494,
+          "type": "arrival",
+          "patient": "P075"
+        },
+        {
+          "time": 494,
+          "type": "vitals",
+          "patient": "P067",
+          "severity": 1.86
+        },
+        {
+          "time": 496,
+          "type": "triage",
+          "patient": "P075",
+          "recorded_acuity": 4,
+          "expected_service": 14
+        },
+        {
+          "time": 499,
+          "type": "arrival",
+          "patient": "P076"
+        },
+        {
+          "time": 499,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 2.18
+        },
+        {
+          "time": 500,
+          "type": "vitals",
+          "patient": "P072",
+          "severity": 1.94
+        },
+        {
+          "time": 501,
+          "type": "triage",
+          "patient": "P076",
+          "recorded_acuity": 2,
+          "expected_service": 28
+        },
+        {
+          "time": 501,
+          "type": "vitals",
+          "patient": "P015",
+          "severity": 2.75
+        },
+        {
+          "time": 501,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 2.0
+        },
+        {
+          "time": 501,
+          "type": "service_end",
+          "patient": "P006",
+          "room": "G2"
+        },
+        {
+          "time": 501,
+          "type": "service_start",
+          "patient": "P076",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 504,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.01
+        },
+        {
+          "time": 507,
+          "type": "vitals",
+          "patient": "P066",
+          "severity": 1.66
+        },
+        {
+          "time": 509,
+          "type": "service_end",
+          "patient": "P073",
+          "room": "G1"
+        },
+        {
+          "time": 509,
+          "type": "service_start",
+          "patient": "P015",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 512,
+          "type": "vitals",
+          "patient": "P037",
+          "severity": 2.32
+        },
+        {
+          "time": 514,
+          "type": "vitals",
+          "patient": "P067",
+          "severity": 2.34
+        },
+        {
+          "time": 516,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 1.67
+        },
+        {
+          "time": 517,
+          "type": "service_end",
+          "patient": "P074",
+          "room": "G3"
+        },
+        {
+          "time": 517,
+          "type": "service_start",
+          "patient": "P037",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 519,
+          "type": "vitals",
+          "patient": "P059",
+          "severity": 2.36
+        },
+        {
+          "time": 520,
+          "type": "vitals",
+          "patient": "P072",
+          "severity": 1.94
+        },
+        {
+          "time": 521,
+          "type": "vitals",
+          "patient": "P046",
+          "severity": 1.72
+        },
+        {
+          "time": 522,
+          "type": "arrival",
+          "patient": "P077"
+        },
+        {
+          "time": 523,
+          "type": "service_end",
+          "patient": "P015",
+          "room": "G1"
+        },
+        {
+          "time": 523,
+          "type": "service_start",
+          "patient": "P046",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 524,
+          "type": "triage",
+          "patient": "P077",
+          "recorded_acuity": 4,
+          "expected_service": 16
+        },
+        {
+          "time": 524,
+          "type": "vitals",
+          "patient": "P048",
+          "severity": 2.3
+        },
+        {
+          "time": 527,
+          "type": "vitals",
+          "patient": "P066",
+          "severity": 1.7
+        },
+        {
+          "time": 531,
+          "type": "service_end",
+          "patient": "P076",
+          "room": "G2"
+        },
+        {
+          "time": 531,
+          "type": "service_start",
+          "patient": "P048",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 534,
+          "type": "vitals",
+          "patient": "P067",
+          "severity": 1.84
+        },
+        {
+          "time": 534,
+          "type": "service_end",
+          "patient": "P037",
+          "room": "G3"
+        },
+        {
+          "time": 534,
+          "type": "service_start",
+          "patient": "P059",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 536,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.38
+        },
+        {
+          "time": 537,
+          "type": "service_end",
+          "patient": "P046",
+          "room": "G1"
+        },
+        {
+          "time": 537,
+          "type": "service_start",
+          "patient": "P066",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 539,
+          "type": "arrival",
+          "patient": "P078"
+        },
+        {
+          "time": 540,
+          "type": "vitals",
+          "patient": "P072",
+          "severity": 1.84
+        },
+        {
+          "time": 540,
+          "type": "batch_round"
+        },
+        {
+          "time": 541,
+          "type": "triage",
+          "patient": "P078",
+          "recorded_acuity": 3,
+          "expected_service": 30
+        },
+        {
+          "time": 544,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.04
+        },
+        {
+          "time": 549,
+          "type": "service_end",
+          "patient": "P059",
+          "room": "G3"
+        },
+        {
+          "time": 549,
+          "type": "service_start",
+          "patient": "P078",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 550,
+          "type": "arrival",
+          "patient": "P079"
+        },
+        {
+          "time": 551,
+          "type": "service_end",
+          "patient": "P048",
+          "room": "G2"
+        },
+        {
+          "time": 551,
+          "type": "service_start",
+          "patient": "P067",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 552,
+          "type": "arrival",
+          "patient": "P080"
+        },
+        {
+          "time": 552,
+          "type": "triage",
+          "patient": "P079",
+          "recorded_acuity": 3,
+          "expected_service": 23
+        },
+        {
+          "time": 552,
+          "type": "service_end",
+          "patient": "P066",
+          "room": "G1"
+        },
+        {
+          "time": 552,
+          "type": "service_start",
+          "patient": "P079",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 554,
+          "type": "arrival",
+          "patient": "P081"
+        },
+        {
+          "time": 554,
+          "type": "triage",
+          "patient": "P080",
+          "recorded_acuity": 3,
+          "expected_service": 27
+        },
+        {
+          "time": 556,
+          "type": "triage",
+          "patient": "P081",
+          "recorded_acuity": 3,
+          "expected_service": 21
+        },
+        {
+          "time": 556,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.31
+        },
+        {
+          "time": 560,
+          "type": "vitals",
+          "patient": "P072",
+          "severity": 2.1
+        },
+        {
+          "time": 564,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 1.97
+        },
+        {
+          "time": 564,
+          "type": "service_end",
+          "patient": "P067",
+          "room": "G2"
+        },
+        {
+          "time": 564,
+          "type": "service_start",
+          "patient": "P080",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 569,
+          "type": "arrival",
+          "patient": "P082"
+        },
+        {
+          "time": 571,
+          "type": "triage",
+          "patient": "P082",
+          "recorded_acuity": 3,
+          "expected_service": 25
+        },
+        {
+          "time": 575,
+          "type": "arrival",
+          "patient": "P083"
+        },
+        {
+          "time": 576,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.34
+        },
+        {
+          "time": 576,
+          "type": "vitals",
+          "patient": "P081",
+          "severity": 2.63
+        },
+        {
+          "time": 577,
+          "type": "triage",
+          "patient": "P083",
+          "recorded_acuity": 5,
+          "expected_service": 10
+        },
+        {
+          "time": 577,
+          "type": "service_end",
+          "patient": "P079",
+          "room": "G1"
+        },
+        {
+          "time": 577,
+          "type": "service_start",
+          "patient": "P081",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 577,
+          "type": "service_start",
+          "patient": "P083",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 578,
+          "type": "service_end",
+          "patient": "P078",
+          "room": "G3"
+        },
+        {
+          "time": 578,
+          "type": "service_start",
+          "patient": "P082",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 580,
+          "type": "vitals",
+          "patient": "P072",
+          "severity": 3.99
+        },
+        {
+          "time": 584,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.03
+        },
+        {
+          "time": 587,
+          "type": "service_end",
+          "patient": "P083",
+          "room": "F1"
+        },
+        {
+          "time": 590,
+          "type": "arrival",
+          "patient": "P084"
+        },
+        {
+          "time": 592,
+          "type": "triage",
+          "patient": "P084",
+          "recorded_acuity": 3,
+          "expected_service": 26
+        },
+        {
+          "time": 592,
+          "type": "service_end",
+          "patient": "P080",
+          "room": "G2"
+        },
+        {
+          "time": 592,
+          "type": "service_start",
+          "patient": "P084",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 595,
+          "type": "arrival",
+          "patient": "P085"
+        },
+        {
+          "time": 596,
+          "type": "arrival",
+          "patient": "P086"
+        },
+        {
+          "time": 596,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.29
+        },
+        {
+          "time": 597,
+          "type": "triage",
+          "patient": "P085",
+          "recorded_acuity": 1,
+          "expected_service": 45
+        },
+        {
+          "time": 597,
+          "type": "service_end",
+          "patient": "P081",
+          "room": "G1"
+        },
+        {
+          "time": 597,
+          "type": "service_start",
+          "patient": "P085",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 598,
+          "type": "arrival",
+          "patient": "P087"
+        },
+        {
+          "time": 598,
+          "type": "triage",
+          "patient": "P086",
+          "recorded_acuity": 1,
+          "expected_service": 52
+        },
+        {
+          "time": 600,
+          "type": "triage",
+          "patient": "P087",
+          "recorded_acuity": 3,
+          "expected_service": 28
+        },
+        {
+          "time": 600,
+          "type": "vitals",
+          "patient": "P072",
+          "severity": 3.71
+        },
+        {
+          "time": 600,
+          "type": "batch_round"
+        },
+        {
+          "time": 600,
+          "type": "reassessment",
+          "patient": "P072",
+          "recorded_acuity": 2,
+          "source": "batch"
+        },
+        {
+          "time": 603,
+          "type": "arrival",
+          "patient": "P088"
+        },
+        {
+          "time": 603,
+          "type": "service_end",
+          "patient": "P082",
+          "room": "G3"
+        },
+        {
+          "time": 603,
+          "type": "service_start",
+          "patient": "P086",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 604,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.11
+        },
+        {
+          "time": 605,
+          "type": "triage",
+          "patient": "P088",
+          "recorded_acuity": 3,
+          "expected_service": 26
+        },
+        {
+          "time": 608,
+          "type": "arrival",
+          "patient": "P089"
+        },
+        {
+          "time": 610,
+          "type": "triage",
+          "patient": "P089",
+          "recorded_acuity": 4,
+          "expected_service": 13
+        },
+        {
+          "time": 613,
+          "type": "arrival",
+          "patient": "P090"
+        },
+        {
+          "time": 615,
+          "type": "triage",
+          "patient": "P090",
+          "recorded_acuity": 3,
+          "expected_service": 23
+        },
+        {
+          "time": 616,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.35
+        },
+        {
+          "time": 619,
+          "type": "service_end",
+          "patient": "P084",
+          "room": "G2"
+        },
+        {
+          "time": 619,
+          "type": "service_start",
+          "patient": "P072",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 620,
+          "type": "vitals",
+          "patient": "P087",
+          "severity": 2.71
+        },
+        {
+          "time": 622,
+          "type": "arrival",
+          "patient": "P091"
+        },
+        {
+          "time": 624,
+          "type": "triage",
+          "patient": "P091",
+          "recorded_acuity": 3,
+          "expected_service": 26
+        },
+        {
+          "time": 624,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 1.74
+        },
+        {
+          "time": 625,
+          "type": "vitals",
+          "patient": "P088",
+          "severity": 2.75
+        },
+        {
+          "time": 630,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 2.17
+        },
+        {
+          "time": 631,
+          "type": "arrival",
+          "patient": "P092"
+        },
+        {
+          "time": 633,
+          "type": "triage",
+          "patient": "P092",
+          "recorded_acuity": 5,
+          "expected_service": 10
+        },
+        {
+          "time": 633,
+          "type": "service_end",
+          "patient": "P072",
+          "room": "G2"
+        },
+        {
+          "time": 633,
+          "type": "service_start",
+          "patient": "P087",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 633,
+          "type": "service_start",
+          "patient": "P092",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 635,
+          "type": "vitals",
+          "patient": "P090",
+          "severity": 3.11
+        },
+        {
+          "time": 636,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 1.91
+        },
+        {
+          "time": 637,
+          "type": "arrival",
+          "patient": "P093"
+        },
+        {
+          "time": 639,
+          "type": "triage",
+          "patient": "P093",
+          "recorded_acuity": 3,
+          "expected_service": 26
+        },
+        {
+          "time": 643,
+          "type": "service_end",
+          "patient": "P085",
+          "room": "G1"
+        },
+        {
+          "time": 643,
+          "type": "service_end",
+          "patient": "P092",
+          "room": "F1"
+        },
+        {
+          "time": 643,
+          "type": "service_start",
+          "patient": "P088",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 644,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.03
+        },
+        {
+          "time": 644,
+          "type": "vitals",
+          "patient": "P091",
+          "severity": 3.18
+        },
+        {
+          "time": 645,
+          "type": "arrival",
+          "patient": "P094"
+        },
+        {
+          "time": 647,
+          "type": "triage",
+          "patient": "P094",
+          "recorded_acuity": 3,
+          "expected_service": 26
+        },
+        {
+          "time": 649,
+          "type": "arrival",
+          "patient": "P095"
+        },
+        {
+          "time": 650,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 1.76
+        },
+        {
+          "time": 651,
+          "type": "triage",
+          "patient": "P095",
+          "recorded_acuity": 5,
+          "expected_service": 11
+        },
+        {
+          "time": 651,
+          "type": "service_start",
+          "patient": "P095",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 653,
+          "type": "service_end",
+          "patient": "P086",
+          "room": "G3"
+        },
+        {
+          "time": 653,
+          "type": "service_start",
+          "patient": "P090",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 656,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.06
+        },
+        {
+          "time": 659,
+          "type": "vitals",
+          "patient": "P093",
+          "severity": 2.64
+        },
+        {
+          "time": 660,
+          "type": "batch_round"
+        },
+        {
+          "time": 661,
+          "type": "service_end",
+          "patient": "P087",
+          "room": "G2"
+        },
+        {
+          "time": 661,
+          "type": "service_start",
+          "patient": "P091",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 662,
+          "type": "arrival",
+          "patient": "P096"
+        },
+        {
+          "time": 663,
+          "type": "service_end",
+          "patient": "P095",
+          "room": "F1"
+        },
+        {
+          "time": 664,
+          "type": "triage",
+          "patient": "P096",
+          "recorded_acuity": 5,
+          "expected_service": 9
+        },
+        {
+          "time": 664,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 1.95
+        },
+        {
+          "time": 664,
+          "type": "service_start",
+          "patient": "P096",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 667,
+          "type": "arrival",
+          "patient": "P097"
+        },
+        {
+          "time": 667,
+          "type": "vitals",
+          "patient": "P094",
+          "severity": 3.37
+        },
+        {
+          "time": 668,
+          "type": "arrival",
+          "patient": "P098"
+        },
+        {
+          "time": 669,
+          "type": "arrival",
+          "patient": "P099"
+        },
+        {
+          "time": 669,
+          "type": "triage",
+          "patient": "P097",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 670,
+          "type": "triage",
+          "patient": "P098",
+          "recorded_acuity": 2,
+          "expected_service": 35
+        },
+        {
+          "time": 670,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 1.93
+        },
+        {
+          "time": 671,
+          "type": "triage",
+          "patient": "P099",
+          "recorded_acuity": 3,
+          "expected_service": 21
+        },
+        {
+          "time": 671,
+          "type": "service_end",
+          "patient": "P088",
+          "room": "G1"
+        },
+        {
+          "time": 671,
+          "type": "service_start",
+          "patient": "P098",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 674,
+          "type": "service_end",
+          "patient": "P096",
+          "room": "F1"
+        },
+        {
+          "time": 674,
+          "type": "service_start",
+          "patient": "P097",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 676,
+          "type": "arrival",
+          "patient": "P100"
+        },
+        {
+          "time": 676,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 1.83
+        },
+        {
+          "time": 677,
+          "type": "arrival",
+          "patient": "P101"
+        },
+        {
+          "time": 677,
+          "type": "service_end",
+          "patient": "P090",
+          "room": "G3"
+        },
+        {
+          "time": 677,
+          "type": "service_start",
+          "patient": "P093",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 678,
+          "type": "arrival",
+          "patient": "P102"
+        },
+        {
+          "time": 678,
+          "type": "triage",
+          "patient": "P100",
+          "recorded_acuity": 4,
+          "expected_service": 18
+        },
+        {
+          "time": 679,
+          "type": "arrival",
+          "patient": "P103"
+        },
+        {
+          "time": 679,
+          "type": "triage",
+          "patient": "P101",
+          "recorded_acuity": 4,
+          "expected_service": 16
+        },
+        {
+          "time": 680,
+          "type": "triage",
+          "patient": "P102",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 681,
+          "type": "triage",
+          "patient": "P103",
+          "recorded_acuity": 5,
+          "expected_service": 10
+        },
+        {
+          "time": 684,
+          "type": "arrival",
+          "patient": "P104"
+        },
+        {
+          "time": 684,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.08
+        },
+        {
+          "time": 685,
+          "type": "arrival",
+          "patient": "P105"
+        },
+        {
+          "time": 685,
+          "type": "service_end",
+          "patient": "P097",
+          "room": "F1"
+        },
+        {
+          "time": 685,
+          "type": "service_start",
+          "patient": "P102",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 686,
+          "type": "triage",
+          "patient": "P104",
+          "recorded_acuity": 5,
+          "expected_service": 12
+        },
+        {
+          "time": 686,
+          "type": "service_end",
+          "patient": "P091",
+          "room": "G2"
+        },
+        {
+          "time": 686,
+          "type": "service_start",
+          "patient": "P094",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 687,
+          "type": "arrival",
+          "patient": "P106"
+        },
+        {
+          "time": 687,
+          "type": "triage",
+          "patient": "P105",
+          "recorded_acuity": 3,
+          "expected_service": 26
+        },
+        {
+          "time": 689,
+          "type": "triage",
+          "patient": "P106",
+          "recorded_acuity": 2,
+          "expected_service": 33
+        },
+        {
+          "time": 690,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 2.03
+        },
+        {
+          "time": 691,
+          "type": "vitals",
+          "patient": "P099",
+          "severity": 2.79
+        },
+        {
+          "time": 695,
+          "type": "arrival",
+          "patient": "P107"
+        },
+        {
+          "time": 696,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 1.61
+        },
+        {
+          "time": 697,
+          "type": "triage",
+          "patient": "P107",
+          "recorded_acuity": 1,
+          "expected_service": 47
+        },
+        {
+          "time": 697,
+          "type": "service_end",
+          "patient": "P102",
+          "room": "F1"
+        },
+        {
+          "time": 697,
+          "type": "service_start",
+          "patient": "P103",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 698,
+          "type": "vitals",
+          "patient": "P100",
+          "severity": 2.28
+        },
+        {
+          "time": 699,
+          "type": "arrival",
+          "patient": "P108"
+        },
+        {
+          "time": 699,
+          "type": "vitals",
+          "patient": "P101",
+          "severity": 2.32
+        },
+        {
+          "time": 701,
+          "type": "triage",
+          "patient": "P108",
+          "recorded_acuity": 1,
+          "expected_service": 43
+        },
+        {
+          "time": 704,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.13
+        },
+        {
+          "time": 705,
+          "type": "arrival",
+          "patient": "P109"
+        },
+        {
+          "time": 705,
+          "type": "service_end",
+          "patient": "P093",
+          "room": "G3"
+        },
+        {
+          "time": 705,
+          "type": "service_start",
+          "patient": "P107",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 706,
+          "type": "vitals",
+          "patient": "P104",
+          "severity": 1.39
+        },
+        {
+          "time": 707,
+          "type": "triage",
+          "patient": "P109",
+          "recorded_acuity": 3,
+          "expected_service": 21
+        },
+        {
+          "time": 707,
+          "type": "vitals",
+          "patient": "P105",
+          "severity": 3.06
+        },
+        {
+          "time": 708,
+          "type": "service_end",
+          "patient": "P098",
+          "room": "G1"
+        },
+        {
+          "time": 708,
+          "type": "service_end",
+          "patient": "P103",
+          "room": "F1"
+        },
+        {
+          "time": 708,
+          "type": "service_start",
+          "patient": "P108",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 1
+        },
+        {
+          "time": 708,
+          "type": "service_start",
+          "patient": "P104",
+          "room": "F1",
+          "room_type": "fast_track",
+          "service_acuity": 5
+        },
+        {
+          "time": 709,
+          "type": "vitals",
+          "patient": "P106",
+          "severity": 3.7
+        },
+        {
+          "time": 710,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 2.15
+        },
+        {
+          "time": 711,
+          "type": "vitals",
+          "patient": "P099",
+          "severity": 3.05
+        },
+        {
+          "time": 712,
+          "type": "service_end",
+          "patient": "P094",
+          "room": "G2"
+        },
+        {
+          "time": 712,
+          "type": "service_start",
+          "patient": "P106",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 2
+        },
+        {
+          "time": 716,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.04
+        },
+        {
+          "time": 718,
+          "type": "vitals",
+          "patient": "P100",
+          "severity": 2.28
+        },
+        {
+          "time": 719,
+          "type": "vitals",
+          "patient": "P101",
+          "severity": 2.01
+        },
+        {
+          "time": 719,
+          "type": "service_end",
+          "patient": "P104",
+          "room": "F1"
+        },
+        {
+          "time": 720,
+          "type": "batch_round"
+        },
+        {
+          "time": 724,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.29
+        },
+        {
+          "time": 727,
+          "type": "vitals",
+          "patient": "P105",
+          "severity": 3.29
+        },
+        {
+          "time": 727,
+          "type": "vitals",
+          "patient": "P109",
+          "severity": 2.75
+        },
+        {
+          "time": 730,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 2.12
+        },
+        {
+          "time": 731,
+          "type": "vitals",
+          "patient": "P099",
+          "severity": 3.03
+        },
+        {
+          "time": 736,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 2.23
+        },
+        {
+          "time": 738,
+          "type": "vitals",
+          "patient": "P100",
+          "severity": 1.99
+        },
+        {
+          "time": 739,
+          "type": "vitals",
+          "patient": "P101",
+          "severity": 2.35
+        },
+        {
+          "time": 743,
+          "type": "service_end",
+          "patient": "P106",
+          "room": "G2"
+        },
+        {
+          "time": 743,
+          "type": "service_start",
+          "patient": "P099",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 744,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 1.98
+        },
+        {
+          "time": 747,
+          "type": "vitals",
+          "patient": "P105",
+          "severity": 2.67
+        },
+        {
+          "time": 747,
+          "type": "vitals",
+          "patient": "P109",
+          "severity": 2.88
+        },
+        {
+          "time": 750,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 2.02
+        },
+        {
+          "time": 751,
+          "type": "service_end",
+          "patient": "P107",
+          "room": "G3"
+        },
+        {
+          "time": 751,
+          "type": "service_start",
+          "patient": "P105",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 754,
+          "type": "service_end",
+          "patient": "P108",
+          "room": "G1"
+        },
+        {
+          "time": 754,
+          "type": "service_start",
+          "patient": "P109",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 3
+        },
+        {
+          "time": 756,
+          "type": "vitals",
+          "patient": "P075",
+          "severity": 1.7
+        },
+        {
+          "time": 758,
+          "type": "vitals",
+          "patient": "P100",
+          "severity": 1.77
+        },
+        {
+          "time": 759,
+          "type": "vitals",
+          "patient": "P101",
+          "severity": 1.9
+        },
+        {
+          "time": 764,
+          "type": "vitals",
+          "patient": "P077",
+          "severity": 2.16
+        },
+        {
+          "time": 764,
+          "type": "service_end",
+          "patient": "P099",
+          "room": "G2"
+        },
+        {
+          "time": 764,
+          "type": "service_start",
+          "patient": "P075",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 770,
+          "type": "vitals",
+          "patient": "P089",
+          "severity": 1.62
+        },
+        {
+          "time": 776,
+          "type": "service_end",
+          "patient": "P109",
+          "room": "G1"
+        },
+        {
+          "time": 776,
+          "type": "service_start",
+          "patient": "P077",
+          "room": "G1",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 778,
+          "type": "vitals",
+          "patient": "P100",
+          "severity": 1.96
+        },
+        {
+          "time": 778,
+          "type": "service_end",
+          "patient": "P075",
+          "room": "G2"
+        },
+        {
+          "time": 778,
+          "type": "service_end",
+          "patient": "P105",
+          "room": "G3"
+        },
+        {
+          "time": 778,
+          "type": "service_start",
+          "patient": "P089",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 778,
+          "type": "service_start",
+          "patient": "P100",
+          "room": "G3",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 779,
+          "type": "vitals",
+          "patient": "P101",
+          "severity": 1.93
+        },
+        {
+          "time": 780,
+          "type": "batch_round"
+        },
+        {
+          "time": 790,
+          "type": "service_end",
+          "patient": "P089",
+          "room": "G2"
+        },
+        {
+          "time": 790,
+          "type": "service_start",
+          "patient": "P101",
+          "room": "G2",
+          "room_type": "general",
+          "service_acuity": 4
+        },
+        {
+          "time": 792,
+          "type": "service_end",
+          "patient": "P077",
+          "room": "G1"
+        },
+        {
+          "time": 795,
+          "type": "service_end",
+          "patient": "P100",
+          "room": "G3"
+        },
+        {
+          "time": 805,
+          "type": "service_end",
+          "patient": "P101",
+          "room": "G2"
+        }
+      ],
+      "stats": {
+        "n_patients": 109,
+        "n_reassessments": 14,
+        "n_prompt_reassessments": 1,
+        "n_batch_reassessments": 13,
+        "n_vitals": 330,
+        "n_abnormal_vitals": 14,
+        "fasttrack_busy_minutes": 210,
+        "general_busy_minutes": 2379,
+        "n_served": 109,
+        "mean_wait_minutes": 70.688,
+        "n_inversions": 51,
+        "n_apparent_pairs": 1
+      },
+      "inversions": [
+        {
+          "victim": "P004",
+          "beneficiary": "P008",
+          "time": 19,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 7,
+          "weighted_burden": 28
+        },
+        {
+          "victim": "P005",
+          "beneficiary": "P008",
+          "time": 19,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 114,
+          "weighted_burden": 456
+        },
+        {
+          "victim": "P006",
+          "beneficiary": "P008",
+          "time": 19,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 464,
+          "weighted_burden": 1392
+        },
+        {
+          "victim": "P015",
+          "beneficiary": "P023",
+          "time": 113,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 396,
+          "weighted_burden": 1188
+        },
+        {
+          "victim": "P019",
+          "beneficiary": "P023",
+          "time": 113,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 70,
+          "weighted_burden": 350
+        },
+        {
+          "victim": "P020",
+          "beneficiary": "P023",
+          "time": 113,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 249,
+          "weighted_burden": 1245
+        },
+        {
+          "victim": "P021",
+          "beneficiary": "P023",
+          "time": 113,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 167,
+          "weighted_burden": 835
+        },
+        {
+          "victim": "P022",
+          "beneficiary": "P023",
+          "time": 113,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 26,
+          "weighted_burden": 130
+        },
+        {
+          "victim": "P024",
+          "beneficiary": "P025",
+          "time": 127,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 14,
+          "weighted_burden": 56
+        },
+        {
+          "victim": "P026",
+          "beneficiary": "P031",
+          "time": 149,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 148,
+          "weighted_burden": 444
+        },
+        {
+          "victim": "P027",
+          "beneficiary": "P031",
+          "time": 149,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 174,
+          "weighted_burden": 522
+        },
+        {
+          "victim": "P029",
+          "beneficiary": "P031",
+          "time": 149,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 183,
+          "weighted_burden": 549
+        },
+        {
+          "victim": "P030",
+          "beneficiary": "P031",
+          "time": 149,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 4,
+          "weighted_burden": 16
+        },
+        {
+          "victim": "P032",
+          "beneficiary": "P033",
+          "time": 164,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 145,
+          "weighted_burden": 580
+        },
+        {
+          "victim": "P035",
+          "beneficiary": "P040",
+          "time": 196,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 141,
+          "weighted_burden": 423
+        },
+        {
+          "victim": "P037",
+          "beneficiary": "P040",
+          "time": 196,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 321,
+          "weighted_burden": 642
+        },
+        {
+          "victim": "P038",
+          "beneficiary": "P040",
+          "time": 196,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 150,
+          "weighted_burden": 450
+        },
+        {
+          "victim": "P039",
+          "beneficiary": "P040",
+          "time": 196,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 6,
+          "weighted_burden": 30
+        },
+        {
+          "victim": "P021",
+          "beneficiary": "P045",
+          "time": 278,
+          "cause": "retriage_lag",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 2,
+          "excess_wait_minutes": 2,
+          "weighted_burden": 10
+        },
+        {
+          "victim": "P041",
+          "beneficiary": "P054",
+          "time": 288,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 68,
+          "weighted_burden": 204
+        },
+        {
+          "victim": "P046",
+          "beneficiary": "P054",
+          "time": 288,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 235,
+          "weighted_burden": 470
+        },
+        {
+          "victim": "P047",
+          "beneficiary": "P054",
+          "time": 288,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 91,
+          "weighted_burden": 273
+        },
+        {
+          "victim": "P048",
+          "beneficiary": "P054",
+          "time": 288,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 243,
+          "weighted_burden": 486
+        },
+        {
+          "victim": "P050",
+          "beneficiary": "P054",
+          "time": 288,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 91,
+          "weighted_burden": 273
+        },
+        {
+          "victim": "P052",
+          "beneficiary": "P054",
+          "time": 288,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 25,
+          "weighted_burden": 125
+        },
+        {
+          "victim": "P055",
+          "beneficiary": "P058",
+          "time": 328,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 74,
+          "weighted_burden": 222
+        },
+        {
+          "victim": "P056",
+          "beneficiary": "P058",
+          "time": 328,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 74,
+          "weighted_burden": 222
+        },
+        {
+          "victim": "P057",
+          "beneficiary": "P058",
+          "time": 328,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 44,
+          "weighted_burden": 176
+        },
+        {
+          "victim": "P020",
+          "beneficiary": "P038",
+          "time": 346,
+          "cause": "batch_reassessment_timing",
+          "victim_service_acuity": 1,
+          "beneficiary_service_acuity": 3,
+          "excess_wait_minutes": 16,
+          "weighted_burden": 80
+        },
+        {
+          "victim": "P059",
+          "beneficiary": "P062",
+          "time": 351,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 183,
+          "weighted_burden": 366
+        },
+        {
+          "victim": "P060",
+          "beneficiary": "P062",
+          "time": 351,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 52,
+          "weighted_burden": 156
+        },
+        {
+          "victim": "P061",
+          "beneficiary": "P062",
+          "time": 351,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 71,
+          "weighted_burden": 213
+        },
+        {
+          "victim": "P064",
+          "beneficiary": "P068",
+          "time": 401,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 23,
+          "weighted_burden": 69
+        },
+        {
+          "victim": "P065",
+          "beneficiary": "P068",
+          "time": 401,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 28,
+          "weighted_burden": 84
+        },
+        {
+          "victim": "P066",
+          "beneficiary": "P068",
+          "time": 401,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 136,
+          "weighted_burden": 272
+        },
+        {
+          "victim": "P067",
+          "beneficiary": "P068",
+          "time": 401,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 150,
+          "weighted_burden": 300
+        },
+        {
+          "victim": "P072",
+          "beneficiary": "P081",
+          "time": 577,
+          "cause": "batch_reassessment_timing",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 3,
+          "excess_wait_minutes": 42,
+          "weighted_burden": 168
+        },
+        {
+          "victim": "P072",
+          "beneficiary": "P083",
+          "time": 577,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 42,
+          "weighted_burden": 168
+        },
+        {
+          "victim": "P075",
+          "beneficiary": "P083",
+          "time": 577,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 187,
+          "weighted_burden": 374
+        },
+        {
+          "victim": "P077",
+          "beneficiary": "P083",
+          "time": 577,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 199,
+          "weighted_burden": 398
+        },
+        {
+          "victim": "P082",
+          "beneficiary": "P083",
+          "time": 577,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 1,
+          "weighted_burden": 3
+        },
+        {
+          "victim": "P072",
+          "beneficiary": "P084",
+          "time": 592,
+          "cause": "retriage_lag",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 3,
+          "excess_wait_minutes": 27,
+          "weighted_burden": 108
+        },
+        {
+          "victim": "P088",
+          "beneficiary": "P092",
+          "time": 633,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 10,
+          "weighted_burden": 30
+        },
+        {
+          "victim": "P089",
+          "beneficiary": "P092",
+          "time": 633,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 145,
+          "weighted_burden": 290
+        },
+        {
+          "victim": "P090",
+          "beneficiary": "P092",
+          "time": 633,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 20,
+          "weighted_burden": 60
+        },
+        {
+          "victim": "P091",
+          "beneficiary": "P092",
+          "time": 633,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 28,
+          "weighted_burden": 84
+        },
+        {
+          "victim": "P093",
+          "beneficiary": "P095",
+          "time": 651,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 26,
+          "weighted_burden": 78
+        },
+        {
+          "victim": "P094",
+          "beneficiary": "P095",
+          "time": 651,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 35,
+          "weighted_burden": 105
+        },
+        {
+          "victim": "P099",
+          "beneficiary": "P102",
+          "time": 685,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 3,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 58,
+          "weighted_burden": 174
+        },
+        {
+          "victim": "P100",
+          "beneficiary": "P102",
+          "time": 685,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 93,
+          "weighted_burden": 186
+        },
+        {
+          "victim": "P101",
+          "beneficiary": "P102",
+          "time": 685,
+          "cause": "resource_fit_preemption",
+          "victim_service_acuity": 4,
+          "beneficiary_service_acuity": 5,
+          "excess_wait_minutes": 105,
+          "weighted_burden": 210
+        }
+      ],
+      "apparent_pairs": [
+        {
+          "victim": "P072",
+          "beneficiary": "P078",
+          "time": 549,
+          "cause": "post_hoc_deterioration",
+          "victim_service_acuity": 2,
+          "beneficiary_service_acuity": 3,
+          "excess_wait_minutes": 70,
+          "weighted_burden": 280
+        }
+      ]
+    }
+  ]
+}

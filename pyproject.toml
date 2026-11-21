@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "triage-inversion-cause-attribution"
+version = "0.1.0"
+description = "Cause-attributed auditing of emergency-department priority queues: a seeded discrete-event ED simulation plants priority inversions by distinct operational mechanisms (re-triage lag, resource-fit preemption, batch reassessment timing), and a log-only detector attributes each inversion to its cause."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+
+[tool.setuptools]
+packages = ["triage_inversion"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

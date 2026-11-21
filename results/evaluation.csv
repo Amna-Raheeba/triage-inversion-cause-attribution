@@ -1,0 +1,4 @@
+cause,detector_precision,detector_recall,detector_f1,baseline_precision,baseline_recall,baseline_f1,truth_pairs,truth_weighted_burden
+retriage_lag,0.8278,0.9255,0.8739,0.059,0.1925,0.0904,322,31314
+resource_fit_preemption,0.9999,0.9999,0.9999,0.9999,0.9999,0.9999,9488,3534373
+batch_reassessment_timing,0.2329,0.6278,0.3398,0.0,0.0,0.0,266,28681

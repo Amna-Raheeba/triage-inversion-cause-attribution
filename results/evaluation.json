@@ -1,0 +1,217 @@
+{
+  "aggregates": {
+    "baseline_batch_reassessment_recall": 0.0,
+    "baseline_overall_accuracy": 0.9124,
+    "baseline_resource_fit_recall": 0.9999,
+    "baseline_retriage_lag_recall": 0.1925,
+    "detector_apparent_declined_rate": 0.7051,
+    "detector_batch_reassessment_precision": 0.2329,
+    "detector_batch_reassessment_recall": 0.6278,
+    "detector_decision_detection_rate": 0.9877,
+    "detector_overall_accuracy": 0.9772,
+    "detector_resource_fit_precision": 0.9999,
+    "detector_resource_fit_recall": 0.9999,
+    "detector_retriage_lag_precision": 0.8278,
+    "detector_retriage_lag_recall": 0.9255,
+    "fifo_weighted_wait_ratio": 0.9522,
+    "n_apparent_pairs": 390,
+    "n_blind_pairs": 9589,
+    "n_days": 200,
+    "n_detected_pairs": 11238,
+    "n_patients": 23024,
+    "n_truth_inversions": 10076,
+    "truth_weighted_burden": 3594368
+  },
+  "baseline_single_rule": {
+    "apparent_declined_rate": 0.0,
+    "decision_detection_rate": 0.9536,
+    "n_correct": 9549,
+    "n_declined_correctly": 0,
+    "n_detected_decision": 9608,
+    "n_predicted": 10538,
+    "n_truth_apparent": 390,
+    "n_truth_decision": 10076,
+    "overall_label_accuracy": 0.9124,
+    "per_cause": {
+      "batch_reassessment_timing": {
+        "f1": 0.0,
+        "fn": 266,
+        "fp": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "resource_fit_preemption": {
+        "f1": 0.9999,
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.9999,
+        "recall": 0.9999,
+        "tp": 9487
+      },
+      "retriage_lag": {
+        "f1": 0.0904,
+        "fn": 260,
+        "fp": 988,
+        "precision": 0.059,
+        "recall": 0.1925,
+        "tp": 62
+      }
+    }
+  },
+  "config": {
+    "base_seed": 20261121,
+    "fifo_days": 50,
+    "n_days": 200,
+    "repair_days": 50
+  },
+  "detector": {
+    "apparent_declined_rate": 0.7051,
+    "decision_detection_rate": 0.9877,
+    "n_correct": 10227,
+    "n_declined_correctly": 275,
+    "n_detected_decision": 9952,
+    "n_predicted": 11238,
+    "n_truth_apparent": 390,
+    "n_truth_decision": 10076,
+    "overall_label_accuracy": 0.9772,
+    "per_cause": {
+      "batch_reassessment_timing": {
+        "f1": 0.3398,
+        "fn": 99,
+        "fp": 550,
+        "precision": 0.2329,
+        "recall": 0.6278,
+        "tp": 167
+      },
+      "resource_fit_preemption": {
+        "f1": 0.9999,
+        "fn": 1,
+        "fp": 1,
+        "precision": 0.9999,
+        "recall": 0.9999,
+        "tp": 9487
+      },
+      "retriage_lag": {
+        "f1": 0.8739,
+        "fn": 24,
+        "fp": 62,
+        "precision": 0.8278,
+        "recall": 0.9255,
+        "tp": 298
+      }
+    }
+  },
+  "detector_burden": {
+    "batch_reassessment_timing": {
+      "excess_minutes": 45186,
+      "pairs": 717,
+      "weighted_minutes": 201575
+    },
+    "resource_fit_preemption": {
+      "excess_minutes": 1276250,
+      "pairs": 9488,
+      "weighted_minutes": 3534460
+    },
+    "retriage_lag": {
+      "excess_minutes": 9348,
+      "pairs": 360,
+      "weighted_minutes": 41704
+    }
+  },
+  "fifo": {
+    "base_high_acuity_mean_wait": 20.388,
+    "base_inversions": 2365,
+    "base_weighted_wait": 944812,
+    "days": 50,
+    "fifo_high_acuity_mean_wait": 118.038,
+    "fifo_inversions": 2703,
+    "fifo_weighted_wait": 899676
+  },
+  "repairs": {
+    "base": {
+      "fasttrack_busy_minutes": 7680,
+      "inversions_by_cause": {
+        "batch_reassessment_timing": 63,
+        "resource_fit_preemption": 2225,
+        "retriage_lag": 77
+      },
+      "mean_wait_minutes": 70.653,
+      "total_inversions": 2365,
+      "total_reassessments": 740
+    },
+    "repairs": {
+      "fasttrack_guard": {
+        "description": "Fast-track room holds its pull while a recorded-acuity <= 3 patient has waited 20+ minutes.",
+        "fasttrack_busy_minutes": 7205,
+        "inversions_by_cause": {
+          "batch_reassessment_timing": 65,
+          "resource_fit_preemption": 1259,
+          "retriage_lag": 83
+        },
+        "mean_wait_minutes": 82.345,
+        "removed_by_cause": {
+          "batch_reassessment_timing": -2,
+          "resource_fit_preemption": 966,
+          "retriage_lag": -6
+        },
+        "targets": "resource_fit_preemption",
+        "total_inversions": 1407,
+        "total_reassessments": 803
+      },
+      "frequent_batch": {
+        "description": "Batch reassessment rounds every 10 minutes instead of 60.",
+        "fasttrack_busy_minutes": 7652,
+        "inversions_by_cause": {
+          "batch_reassessment_timing": 22,
+          "resource_fit_preemption": 2211,
+          "retriage_lag": 3
+        },
+        "mean_wait_minutes": 69.37,
+        "removed_by_cause": {
+          "batch_reassessment_timing": 41,
+          "resource_fit_preemption": 14,
+          "retriage_lag": 74
+        },
+        "targets": "batch_reassessment_timing",
+        "total_inversions": 2236,
+        "total_reassessments": 937
+      },
+      "prompt_retriage": {
+        "description": "Every abnormal vitals check triggers a prompt reassessment.",
+        "fasttrack_busy_minutes": 7714,
+        "inversions_by_cause": {
+          "batch_reassessment_timing": 73,
+          "resource_fit_preemption": 2235,
+          "retriage_lag": 23
+        },
+        "mean_wait_minutes": 69.837,
+        "removed_by_cause": {
+          "batch_reassessment_timing": -10,
+          "resource_fit_preemption": -10,
+          "retriage_lag": 54
+        },
+        "targets": "retriage_lag",
+        "total_inversions": 2331,
+        "total_reassessments": 797
+      }
+    }
+  },
+  "truth_burden": {
+    "batch_reassessment_timing": {
+      "excess_minutes": 6435,
+      "pairs": 266,
+      "weighted_minutes": 28681
+    },
+    "resource_fit_preemption": {
+      "excess_minutes": 1276221,
+      "pairs": 9488,
+      "weighted_minutes": 3534373
+    },
+    "retriage_lag": {
+      "excess_minutes": 7090,
+      "pairs": 322,
+      "weighted_minutes": 31314
+    }
+  }
+}
